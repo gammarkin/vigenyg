@@ -1,9 +1,61 @@
+/* Estilos para telas pequenas */
+@media (max-width: 600px) {
+  input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    width: auto;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  p {
+    font-size: 2rem;
+    margin: 0 2rem;
+  }
+}
+
+/* Estilos para telas médias */
+@media (min-width: 601px) and (max-width: 1024px) {
+  input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    width: auto;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  p {
+    font-size: 4rem;
+    margin: 0 5rem;
+  }
+}
+
+/* Estilos para telas grandes */
+@media (min-width: 1025px) {
+  input {
+    width: 25rem;
+  }
+
+  main {
+    width: 84rem;
+  }
+
+  p {
+    font-size: 6rem;
+    margin: 0 10rem;
+  }
+}
+
+/* Estilos comuns a todas as telas */
 input {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  width: 25rem;
   border-radius: 0.5rem;
   font-size: larger;
 }
@@ -27,23 +79,21 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 84rem;
 }
 
 p {
-  font-size: 6rem;
-  margin: 0rem 10rem;
+  margin: 0;
 }
 
 h1 {
   font-size: 3rem !important;
-  margin: 0rem;
+  margin: 0;
 }
 
 div {
   display: flex;
   flex-direction: column;
-  align-items:flex-start;
+  align-items: flex-start;
   justify-content: center;
   margin: 0.3rem;
   font-size: large;
